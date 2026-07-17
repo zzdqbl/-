@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<library path="ylc_nav_rpp">
+  <class name="ylc_nav_rpp/AckermannRPP"
+         type="ylc_nav_rpp::AckermannRegulatedPurePursuitController"
+         base_class_type="nav2_core::Controller">
+    <description>Custom Ackermann-steering Regulated Pure Pursuit Controller based on Nav2 RPP.</description>
+  </class>
+</library>
+
+<library path="ylc_nav_rpp_3_24">
+  <class name="ackermann_rpp_controller_3_24::AckermannRppController"
+         type="ackermann_rpp_controller_3_24::AckermannRppController"
+         base_class_type="nav2_core::Controller">
+    <description>
+      Updated Custom Ackermann RPP Controller (Version 3-24).
+    </description>
+  </class>
+</library> 
